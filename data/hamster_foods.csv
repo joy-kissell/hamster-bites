@@ -1,0 +1,125 @@
+food,type,safe
+Acai,Fruits,yes
+Apples,Fruits,yes
+Apricots,Fruits,yes
+Bananas,Fruits,yes
+Blueberries,Fruits,yes
+Blackberries,Fruits,yes
+Boysenberries,Fruits,yes
+Cantaloupe,Fruits,yes
+Cherries (without pip),Fruits,yes
+Cranberries,Fruits,yes
+Cucumbers,Fruits,yes
+Currants,Fruits,yes
+Dates,Fruits,yes
+Elderberries,Fruits,yes
+Figs,Fruits,yes
+Gooseberries,Fruits,yes
+Grapes,Fruits,yes
+Guava,Fruits,yes
+Honeydew melons,Fruits,yes
+Kiwis,Fruits,yes
+Kumquat,Fruits,yes
+Lychees,Fruits,yes
+Mangos,Fruits,yes
+Nectarines,Fruits,yes
+Papaya,Fruits,yes
+Passion fruit,Fruits,yes
+Peaches,Fruits,yes
+Pears,Fruits,yes
+Pineapple,Fruits,yes
+Plums,Fruits,yes
+Pomegranate,Fruits,yes
+Raspberries,Fruits,yes
+Starfruit,Fruits,yes
+Strawberries,Fruits,yes
+"Tomatoes (Ripe, No Leaves/Stem)",Fruits,yes
+Watermelons,Fruits,yes
+Amaranth,Vegetables,yes
+Arrugula,Vegetables,yes
+Artichoke,Vegetables,yes
+Asparagus,Vegetables,yes
+Basil,Vegetables,yes
+Beans,Vegetables,yes
+Beet,Vegetables,yes
+Bok Choy,Vegetables,yes
+Broccoli,Vegetables,yes
+Brussels sprouts,Vegetables,yes
+Cabbage,Vegetables,yes
+Carrot,Vegetables,yes
+Cauliflower,Vegetables,yes
+Celery,Vegetables,yes
+Collards,Vegetables,yes
+Corn,Vegetables,yes
+Cucumber,Vegetables,yes
+Dandelion,Vegetables,yes
+Dill,Vegetables,yes
+Fennel,Vegetables,yes
+Ginger,Vegetables,yes
+Kale,Vegetables,yes
+Mushroom,Vegetables,yes
+Parsley,Vegetables,yes
+Parsnip,Vegetables,yes
+Peas,Vegetables,yes
+Pepper (Bell),Vegetables,yes
+Potato (Cooked!),Vegetables,yes
+Pumpkin,Vegetables,yes
+Radicchio,Vegetables,yes
+Romaine Lettuce,Vegetables,yes
+Soybeans,Vegetables,yes
+Spinach,Vegetables,yes
+Squash,Vegetables,yes
+Sweet Potato (Cooked),Vegetables,yes
+Swiss Chard,Vegetables,yes
+Tomato,Vegetables,yes
+Zucchini/Courgette,Vegetables,yes
+Chicken,Proteins,yes
+"Cheese (Cheddar, Swiss, Marble, Parmesan, etc.)",Proteins,yes
+Cottage Cheese,Proteins,yes
+Crickets,Proteins,yes
+Eggs,Proteins,yes
+Grasshoppers,Proteins,yes
+Lean Ground Beef,Proteins,yes
+Mealworms,Proteins,yes
+Salmon,Proteins,yes
+Tofu,Proteins,yes
+Turkey,Proteins,yes
+Yoghurt,Proteins,yes
+Almonds,Miscellaneous Foods,yes
+Amaranth,Miscellaneous Foods,yes
+Barley,Miscellaneous Foods,yes
+Black Eyed Peas,Miscellaneous Foods,yes
+Black Turtle Beans,Miscellaneous Foods,yes
+Buckwheat,Miscellaneous Foods,yes
+Bulgar Wheat,Miscellaneous Foods,yes
+Chickpeas (Garbonzo Beans),Miscellaneous Foods,yes
+Chia Seeds,Miscellaneous Foods,yes
+Couscous,Miscellaneous Foods,yes
+Farro,Miscellaneous Foods,yes
+Flax Seeds,Miscellaneous Foods,yes
+Hemp Hearts,Miscellaneous Foods,yes
+Lentils,Miscellaneous Foods,yes
+Millet,Miscellaneous Foods,yes
+Mung Beans,Miscellaneous Foods,yes
+Nutritional Yeast,Miscellaneous Foods,yes
+Oat Flakes,Miscellaneous Foods,yes
+"Pastas, cooked and dry",Miscellaneous Foods,yes
+Peanuts,Miscellaneous Foods,yes
+Popped Corn,Miscellaneous Foods,yes
+Pumpkin Seeds,Miscellaneous Foods,yes
+Quinoa,Miscellaneous Foods,yes
+"Rice, cooked and dry",Miscellaneous Foods,yes
+Rye Flakes,Miscellaneous Foods,yes
+Sesame Seeds,Miscellaneous Foods,yes
+Split Peas,Miscellaneous Foods,yes
+Sunflower Seeds,Miscellaneous Foods,yes
+Walnuts,Miscellaneous Foods,yes
+Wheat Germ,Miscellaneous Foods,yes
+Almonds,Controversial Foods,controversial
+"Blue Cheese, and other soft or mouldy cheeses",Dangerous Foods,no
+Chili Peppers (or any hot pepper),Dangerous Foods,no
+Eggplant/Aubergine,Dangerous Foods,no
+Kidney Beans (uncooked),Dangerous Foods,no
+"Packaged Meats (ie. deli meats, sandwich meats)",Dangerous Foods,no
+"Raw, Green Potato",Dangerous Foods,no
+Rhubarb Leaves,Dangerous Foods,no
