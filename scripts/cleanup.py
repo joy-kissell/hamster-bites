@@ -23,7 +23,6 @@ for food in controversial_foods:
         #adding row to end of dataframe
         next_index = foodData.index.max() + 1
         foodData.loc[next_index]=[food, "Miscellaneous Foods", 'yes', True]
-        last_row = foodData.iloc[-1]
 
 print(foodData[foodData['controversial']]['food'])
 foodData = foodData.drop_duplicates(subset=['food'], keep='first')
