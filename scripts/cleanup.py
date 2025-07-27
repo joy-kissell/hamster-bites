@@ -26,3 +26,5 @@ for food in controversial_foods:
         last_row = foodData.iloc[-1]
 
 print(foodData[foodData['controversial']]['food'])
+foodData = foodData.drop_duplicates(subset=['food'], keep='first')
+print(foodData.describe())
