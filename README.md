@@ -13,3 +13,7 @@ current columns: food (name), type (fruit, vegetable, protein, miscellaneous, da
         -sort dangerous foods and controversial foods into types (placeholder miscellaneous type for now)\
         -create cleaned csv to work with
         -look into changing data types: food-string, type-categorical defined type, safe-binary, controversial-already boolean so good
+
+## Ideas
+create a website so people can add to the database and then post on r/hamsters\
+requires setting up a db though so mongodb or sql (decide)
