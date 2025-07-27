@@ -6,7 +6,7 @@ pip install -r requirements.txt
 scraped all food items from webpage into dataframe and saved to a csv: https://ontariohamsters.ca/education/Food-safety.html \
 added controversial column (boolean) and got rid of controversial food type\
 removed duplicates from dataframe\
-current columns: food (name), type (fruit, vegetable, protein, miscellaneous, dangerous), safe (yes/no)\
+current columns: food (name), type (fruit, vegetable, protein, miscellaneous, dangerous), safe (yes/no), controversial (true/false)\
     TODO: data cleaning\
         -details in parenthesis-->own column or add cooked/raw column\
         -multiple item names with slashes-->separate into different food items if not synonyms\
