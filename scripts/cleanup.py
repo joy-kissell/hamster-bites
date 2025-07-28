@@ -54,4 +54,4 @@ new_types = dict(zip(dangerous_foods, mapped_type))
 mask = foodData['food'].isin(dangerous_foods)
 foodData.loc[mask, 'type']= foodData.loc[mask, 'food'].map(new_types)
 #checking it's gone
-print(f"dangerous foods are: {foodData[foodData['type']== 'Dangerous Foods']['food']}")
+print(foodData['type'].unique())
