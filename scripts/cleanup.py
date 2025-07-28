@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 cleanData = pd.read_csv('data/hamster_foods.csv')
 print(cleanData.head())
 print(cleanData.describe())
@@ -27,3 +28,21 @@ for food in controversial_foods:
 print(foodData[foodData['controversial']]['food'])
 foodData = foodData.drop_duplicates(subset=['food'], keep='first')
 print(foodData.describe())
+
+#cleaning up parenthesis in food names
+def extract_parenthetical(food):
+    match = re.search(r'\((.*?)\)', food)
+    if match:
+        notes = match.group(1)
+        fixed_name = re.sub(r'\s*\(.*?\)\s*','',food)
+        return fixed_name, notes
+    else:
+        return food, "prepared any way"
+    
+foodData[['food', 'notes']] = foodData['food'].apply(
+    lambda x: pd.Series(extract_parenthetical(x))
+)
+print(foodData[['food', 'notes']])
+
+#getting rid of dangerous food type
+#print(foodData[foodData['type']== 'Dangerous Foods']['food'])
