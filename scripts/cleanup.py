@@ -45,4 +45,13 @@ foodData[['food', 'notes']] = foodData['food'].apply(
 print(foodData[['food', 'notes']])
 
 #getting rid of dangerous food type
-#print(foodData[foodData['type']== 'Dangerous Foods']['food'])
+dangerous_foods = foodData[foodData['type']== 'Dangerous Foods']['food'].tolist()
+print(dangerous_foods)
+mapped_type = ['Proteins', 'Vegetables', 'Fruits', 'Miscellaneous Foods', 'Proteins', 'Vegetables', 'Vegetables']
+
+new_types = dict(zip(dangerous_foods, mapped_type))
+
+mask = foodData['food'].isin(dangerous_foods)
+foodData.loc[mask, 'type']= foodData.loc[mask, 'food'].map(new_types)
+#checking it's gone
+print(f"dangerous foods are: {foodData[foodData['type']== 'Dangerous Foods']['food']}")
