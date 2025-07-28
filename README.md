@@ -3,7 +3,7 @@ Database of foods that hamsters can/cannot eat, including frequency and controve
 ## Setup
 pip install -r requirements.txt
 ## Data Structure
-current columns: food (name), type (fruit, vegetable, protein, miscellaneous, dangerous), safe (yes/no), controversial (true/false)\
+current columns: food (name), type (fruits, vegetables, proteins, miscellaneous foods), safe (yes/no), controversial (true/false), notes\
 ## Progress
 1.scraped all food items from webpage into dataframe and saved to a csv: https://ontariohamsters.ca/education/Food-safety.html \
 2.added controversial column (boolean) and got rid of controversial food type\
