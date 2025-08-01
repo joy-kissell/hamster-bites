@@ -73,3 +73,14 @@ foodData[['food', 'notes']]=foodData.apply(
     lambda row:pd.Series(cookedDry(row['food'], row['notes'])), axis = 1
 )
 #print(foodData[['food','notes']].to_string())
+
+#sorting controversial foods into types
+print(foodData[foodData['controversial']][['food', 'type', 'notes']])
+mappedDict = {'Avocado': 'Fruits', 'Citrus Fruits':'Fruits','Leeks':'Vegetables', 
+              'Onions':'Vegetables', 'Raisins':'Fruits', 'Watermelon':'Fruits'}
+
+controversialMask = foodData['food'].isin(mappedDict.keys())
+#updating controversial food types
+foodData.loc[controversialMask,'type']=foodData.loc[controversialMask,'food'].map(mappedDict)
+#checking now
+print(foodData[foodData['controversial']][['food', 'type', 'notes']])
