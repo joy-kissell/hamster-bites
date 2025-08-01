@@ -1,0 +1,132 @@
+food,type,safe,controversial,notes
+Acai,Fruits,True,False,prepared any way
+Apple,Fruits,True,False,prepared any way
+Apricot,Fruits,True,False,prepared any way
+Banana,Fruits,True,False,prepared any way
+Blueberry,Fruits,True,False,prepared any way
+Blackberry,Fruits,True,False,prepared any way
+Boysenberry,Fruits,True,False,prepared any way
+Cantaloupe,Fruits,True,False,prepared any way
+Cherry,Fruits,True,False,without pip
+Cranberry,Fruits,True,False,prepared any way
+Currant,Fruits,True,False,prepared any way
+Date,Fruits,True,False,prepared any way
+Elderberry,Fruits,True,False,prepared any way
+Fig,Fruits,True,False,prepared any way
+Gooseberry,Fruits,True,False,prepared any way
+Grape,Fruits,True,True,prepared any way
+Guava,Fruits,True,False,prepared any way
+Honeydew melon,Fruits,True,False,prepared any way
+Kiwis,Fruits,True,False,prepared any way
+Kumquat,Fruits,True,False,prepared any way
+Lychee,Fruits,True,False,prepared any way
+Mango,Fruits,True,False,prepared any way
+Nectarine,Fruits,True,False,prepared any way
+Papaya,Fruits,True,False,prepared any way
+Passion fruit,Fruits,True,False,prepared any way
+Peache,Fruits,True,False,prepared any way
+Pear,Fruits,True,False,prepared any way
+Pineapple,Fruits,True,False,prepared any way
+Plum,Fruits,True,False,prepared any way
+Pomegranate,Fruits,True,False,prepared any way
+Raspberry,Fruits,True,False,prepared any way
+Starfruit,Fruits,True,False,prepared any way
+Strawberry,Fruits,True,False,prepared any way
+Watermelon,Fruits,True,False,prepared any way
+Amaranth,Vegetables,True,False,prepared any way
+Arrugula,Vegetables,True,False,prepared any way
+Artichoke,Vegetables,True,False,prepared any way
+Asparagus,Vegetables,True,False,prepared any way
+Basil,Vegetables,True,False,prepared any way
+Bean,Vegetables,True,False,prepared any way
+Beet,Vegetables,True,False,prepared any way
+Bok Choy,Vegetables,True,False,prepared any way
+Broccoli,Vegetables,True,False,prepared any way
+Brussels sprout,Vegetables,True,False,prepared any way
+Cabbage,Vegetables,True,False,prepared any way
+Carrot,Vegetables,True,False,prepared any way
+Cauliflower,Vegetables,True,False,prepared any way
+Celery,Vegetables,True,False,prepared any way
+Collard,Vegetables,True,False,prepared any way
+Corn,Vegetables,True,False,prepared any way
+Cucumber,Vegetables,True,True,prepared any way
+Dandelion,Vegetables,True,False,prepared any way
+Dill,Vegetables,True,False,prepared any way
+Fennel,Vegetables,True,False,prepared any way
+Ginger,Vegetables,True,False,prepared any way
+Kale,Vegetables,True,False,prepared any way
+Mushroom,Vegetables,True,False,prepared any way
+Parsley,Vegetables,True,False,prepared any way
+Parsnip,Vegetables,True,False,prepared any way
+Pea,Vegetables,True,False,prepared any way
+Pepper,Vegetables,True,False,Bell
+Potato,Vegetables,True,False,Cooked!
+Pumpkin,Vegetables,True,False,prepared any way
+Radicchio,Vegetables,True,False,prepared any way
+Romaine Lettuce,Vegetables,True,False,prepared any way
+Soybean,Vegetables,True,False,prepared any way
+Spinach,Vegetables,True,False,prepared any way
+Squash,Vegetables,True,False,prepared any way
+Sweet Potato,Vegetables,True,False,Cooked
+Swiss Chard,Vegetables,True,False,prepared any way
+Tomato,Vegetables,True,True,"Ripe, No Leaves/Stem"
+Zucchini/Courgette,Vegetables,True,False,prepared any way
+Chicken,Proteins,True,False,prepared any way
+Cheese,Proteins,True,False,"Cheddar, Swiss, Marble, Parmesan, etc."
+Cottage Cheese,Proteins,True,False,prepared any way
+Cricket,Proteins,True,False,prepared any way
+Egg,Proteins,True,False,prepared any way
+Grasshopper,Proteins,True,False,prepared any way
+Lean Ground Beef,Proteins,True,False,prepared any way
+Mealworm,Proteins,True,False,prepared any way
+Salmon,Proteins,True,False,prepared any way
+Tofu,Proteins,True,False,prepared any way
+Turkey,Proteins,True,False,prepared any way
+Yoghurt,Proteins,True,False,prepared any way
+Almond,Miscellaneous Foods,True,True,prepared any way
+Barley,Miscellaneous Foods,True,False,prepared any way
+Black Eyed Pea,Miscellaneous Foods,True,False,prepared any way
+Black Turtle Bean,Miscellaneous Foods,True,False,prepared any way
+Buckwheat,Miscellaneous Foods,True,False,prepared any way
+Bulgar Wheat,Miscellaneous Foods,True,False,prepared any way
+Chickpea,Miscellaneous Foods,True,False,Garbonzo Beans
+Chia Seed,Miscellaneous Foods,True,False,prepared any way
+Couscous,Miscellaneous Foods,True,False,prepared any way
+Farro,Miscellaneous Foods,True,False,prepared any way
+Flax Seed,Miscellaneous Foods,True,False,prepared any way
+Hemp Heart,Miscellaneous Foods,True,False,prepared any way
+Lentil,Miscellaneous Foods,True,False,prepared any way
+Millet,Miscellaneous Foods,True,False,prepared any way
+Mung Bean,Miscellaneous Foods,True,False,prepared any way
+Nutritional Yeast,Miscellaneous Foods,True,False,prepared any way
+Oat Flake,Miscellaneous Foods,True,False,prepared any way
+Pasta,Miscellaneous Foods,True,False,cooked and dry
+Peanut,Miscellaneous Foods,True,False,prepared any way
+Popped Corn,Miscellaneous Foods,True,False,prepared any way
+Pumpkin Seed,Miscellaneous Foods,True,False,prepared any way
+Quinoa,Miscellaneous Foods,True,False,prepared any way
+Rice,Miscellaneous Foods,True,False,cooked and dry
+Rye Flake,Miscellaneous Foods,True,False,prepared any way
+Sesame Seed,Miscellaneous Foods,True,False,prepared any way
+Split Pea,Miscellaneous Foods,True,False,prepared any way
+Sunflower Seed,Miscellaneous Foods,True,False,prepared any way
+Walnut,Miscellaneous Foods,True,False,prepared any way
+Wheat Germ,Miscellaneous Foods,True,False,prepared any way
+"Blue Cheese, and other soft or mouldy cheese",Proteins,False,False,prepared any way
+Chili Pepper,Vegetables,False,False,or any hot pepper
+Eggplant/Aubergine,Fruits,False,False,prepared any way
+Kidney Bean,Miscellaneous Foods,False,False,uncooked
+Packaged Meat,Proteins,False,False,"ie. deli meats, sandwich meats"
+"Raw, Green Potato",Vegetables,False,False,prepared any way
+Rhubarb Leave,Vegetables,False,False,prepared any way
+Avocado,Fruits,True,True,prepared any way
+Chocolate,Miscellaneous Foods,True,True,prepared any way
+Citrus Fruit,Fruits,True,True,prepared any way
+Coriander/Cilantro/Mint,Miscellaneous Foods,True,True,prepared any way
+Dairy Product,Miscellaneous Foods,True,True,prepared any way
+Garlic,Miscellaneous Foods,True,True,prepared any way
+Leek,Vegetables,True,True,prepared any way
+Onion,Vegetables,True,True,prepared any way
+Peanut Butter,Miscellaneous Foods,True,True,prepared any way
+Raisin,Fruits,True,True,prepared any way
+Watermelon,Fruits,True,True,prepared any way

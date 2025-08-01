@@ -128,3 +128,5 @@ foodData = convertDataTypes(foodData)
 print(foodData.dtypes)
 print(f"\nType categories: {foodData['type'].cat.categories.tolist()}")
 print(f"Type value counts:\n{foodData['type'].value_counts()}")
+
+foodData.to_csv('data/clean_hamster_foods.csv', index=False)
