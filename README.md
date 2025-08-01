@@ -11,7 +11,7 @@ pip install -r requirements.txt
 | controversial | boolean | is this a controversial food? (T/F) |
 | notes | string | specific preparation instructions |
 ## Data Preview
-📊 **[View complete dataset](data/hamster_foods.csv)** (150+ foods)
+📊 **[View complete dataset](data/clean_hamster_foods.csv)** (150+ foods)
 
 ### Sample Data
 | food | type | safe | controversial | notes |
