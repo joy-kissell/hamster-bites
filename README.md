@@ -3,19 +3,28 @@ Database of foods that hamsters can/cannot eat, including frequency and controve
 ## Setup
 pip install -r requirements.txt
 ## Data Structure
-current columns: food (name), type (fruits, vegetables, proteins, miscellaneous foods), safe (yes/no), controversial (true/false), notes
+| Column | Type | Description |
+|--------|------|-------------|
+| food | string | food name (singular) |
+| type | categorical | fruits, vegetables, proteins, or miscellaneous foods |
+| safe | boolean | is food safe for hamsters? (true/false) |
+| controversial | boolean | is this a controversial food? (T/F) |
+| notes | string | specific preparation instructions |
 ## Progress
 1.scraped all food items from webpage into dataframe and saved to a csv: https://ontariohamsters.ca/education/Food-safety.html \
 2.added controversial column (boolean) and got rid of controversial food type\
 3.removed duplicates from dataframe\
 4.removed parenthetical names and added notes section with default value 'prepare any way'\
-5.got rid of dangerous food type and mapped to vegetables, fruits, proteins, and miscellaneous
-6.added more details to notes section
-    TODO: data cleaning
-        -multiple item names with slashes-->separate into different food items if not synonyms
-        -sort misc. controversial foods into types 
-        -create cleaned csv to work with
-        -look into changing data types: food-string, type-categorical defined type, safe-binary, controversial-already boolean so good
+5.got rid of dangerous food type and mapped to vegetables, fruits, proteins, and miscellaneous\
+6.added more details to notes section\
+7.sorted controversial foods into types\
+8.removed duplicates and plural versions of foods from df\
+9.converted data types of df: food (string), type (categorical), safe (boolean), controversial (boolean), notes (string)\
+    TODO: data visualization
+    **download new csv**
+    **basic stats/breakdown of each category**
+    **categories with most dangerous/controversial foods**
+    **think about connecting to FDA API to find out which foods have high sugar/salt/water content as predictor of safety**
 
 ## Ideas
 create a website so people can add to the database and then post on r/hamsters\
