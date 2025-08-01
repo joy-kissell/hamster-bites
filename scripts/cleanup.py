@@ -93,3 +93,20 @@ foodData = foodData.drop(foodData[foodData['food']== 'Tomatoes'].index)
 # print(foodData[foodData['food']== 'Tomatoes'])
 foodData = foodData.drop(foodData[foodData['food']=='Cucumbers'].index)
 #print(foodData[foodData['food']== 'Cucumbers']['notes'])
+
+#making all food names singular
+def singleFood(food):
+    food = str(food).strip()
+    if len(food)<=3:
+        return food
+    if food.lower().endswith(('ss', 'us', 'is','ous', 'eens')):
+        #e.g. asparagus, cress, greens
+        return food
+    if food.endswith('ies'):
+    #any type or berries
+        return food[:-3]+ 'y'
+    if food.endswith('s'):
+        return food[:-1]
+    return food
+foodData['food'] = foodData['food'].apply(singleFood)
+print(foodData['food'].tolist())
