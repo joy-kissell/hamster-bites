@@ -10,6 +10,7 @@ current columns: food (name), type (fruits, vegetables, proteins, miscellaneous 
 3.removed duplicates from dataframe\
 4.removed parenthetical names and added notes section with default value 'prepare any way'\
 5.got rid of dangerous food type and mapped to vegetables, fruits, proteins, and miscellaneous
+6.added more details to notes section
     TODO: data cleaning
         -multiple item names with slashes-->separate into different food items if not synonyms
         -sort misc. controversial foods into types 

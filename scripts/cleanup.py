@@ -25,7 +25,7 @@ for food in controversial_foods:
         next_index = foodData.index.max() + 1
         foodData.loc[next_index]=[food, "Miscellaneous Foods", 'yes', True]
 
-print(foodData[foodData['controversial']]['food'])
+#print(foodData[foodData['controversial']]['food'])
 foodData = foodData.drop_duplicates(subset=['food'], keep='first')
 print(foodData.describe())
 
@@ -42,11 +42,11 @@ def extract_parenthetical(food):
 foodData[['food', 'notes']] = foodData['food'].apply(
     lambda x: pd.Series(extract_parenthetical(x))
 )
-print(foodData[['food', 'notes']])
+#print(foodData[['food', 'notes']])
 
 #getting rid of dangerous food type
 dangerous_foods = foodData[foodData['type']== 'Dangerous Foods']['food'].tolist()
-print(dangerous_foods)
+#print(dangerous_foods)
 mapped_type = ['Proteins', 'Vegetables', 'Fruits', 'Miscellaneous Foods', 'Proteins', 'Vegetables', 'Vegetables']
 
 new_types = dict(zip(dangerous_foods, mapped_type))
@@ -54,7 +54,7 @@ new_types = dict(zip(dangerous_foods, mapped_type))
 mask = foodData['food'].isin(dangerous_foods)
 foodData.loc[mask, 'type']= foodData.loc[mask, 'food'].map(new_types)
 #checking it's gone
-print(foodData['type'].unique())
+#print(foodData['type'].unique())
 
 #adding more food notes
 def cookedDry(food, currentNote):
@@ -72,4 +72,4 @@ foodData[['food', 'notes']]=foodData.apply(
     #apply across rows not columns
     lambda row:pd.Series(cookedDry(row['food'], row['notes'])), axis = 1
 )
-print(foodData[['food','notes']].to_string())
+#print(foodData[['food','notes']].to_string())
