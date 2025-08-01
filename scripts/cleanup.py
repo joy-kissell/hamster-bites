@@ -110,3 +110,21 @@ def singleFood(food):
     return food
 foodData['food'] = foodData['food'].apply(singleFood)
 print(foodData['food'].tolist())
+
+#enforcing data types
+
+ALLOWED_TYPES = ['Fruits', 'Vegetables', 'Proteins', 'Miscellaneous Foods']
+
+def convertDataTypes(df):
+    df['food']=df['food'].astype('string')
+    #set food types
+    df['type']=pd.Categorical(df['type'], categories=ALLOWED_TYPES, ordered = False)
+    df['safe']=df['safe'].map({'yes':True, 'no':False}).astype('boolean')
+    df['controversial'] = df['controversial'].astype('boolean')
+    df['notes'] = df['notes'].astype('string')
+    return df
+
+foodData = convertDataTypes(foodData)
+print(foodData.dtypes)
+print(f"\nType categories: {foodData['type'].cat.categories.tolist()}")
+print(f"Type value counts:\n{foodData['type'].value_counts()}")
