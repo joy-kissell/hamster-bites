@@ -55,3 +55,21 @@ mask = foodData['food'].isin(dangerous_foods)
 foodData.loc[mask, 'type']= foodData.loc[mask, 'food'].map(new_types)
 #checking it's gone
 print(foodData['type'].unique())
+
+#adding more food notes
+def cookedDry(food, currentNote):
+    if "cooked and dry" in food.lower():
+        clean = re.sub(r',?\s*cooked and dry', '', food, flags=re.IGNORECASE).strip()
+        if currentNote == "prepared any way":
+            newNote = "cooked and dry"
+        else:
+            newNote = f"{currentNote}, cooked and dry"
+        return clean, newNote
+    else:
+        return food, currentNote
+    
+foodData[['food', 'notes']]=foodData.apply(
+    #apply across rows not columns
+    lambda row:pd.Series(cookedDry(row['food'], row['notes'])), axis = 1
+)
+print(foodData[['food','notes']].to_string())
