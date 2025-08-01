@@ -84,3 +84,12 @@ controversialMask = foodData['food'].isin(mappedDict.keys())
 foodData.loc[controversialMask,'type']=foodData.loc[controversialMask,'food'].map(mappedDict)
 #checking now
 print(foodData[foodData['controversial']][['food', 'type', 'notes']])
+
+#collapsing tomatoes and tomato into 1 row, cucumber and cucumbers into 1 row
+foodData.loc[foodData['food']=='Tomato', 'notes']= foodData[foodData['food']== 'Tomatoes']['notes'].iloc[0]
+print(foodData[foodData['food']== 'Tomato']['notes'].to_string())
+foodData = foodData.drop(foodData[foodData['food']== 'Tomatoes'].index)
+# yay it's gone
+# print(foodData[foodData['food']== 'Tomatoes'])
+foodData = foodData.drop(foodData[foodData['food']=='Cucumbers'].index)
+#print(foodData[foodData['food']== 'Cucumbers']['notes'])
