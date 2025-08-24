@@ -33,9 +33,10 @@ pip install -r requirements.txt
 7.sorted controversial foods into types\
 8.removed duplicates and plural versions of foods from df\
 9.converted data types of df: food (string), type (categorical), safe (boolean), controversial (boolean), notes (string)\
+10.basic stats and category breakdown with count and percentages of dangerous and controversial foods calculated
     **TODO: data visualization**
-    -basic stats/breakdown of each category\
-    -categories with most dangerous/controversial foods\
+    -create bar charts with basic stats
+    -make some aggregation/pivot tables to make charts
     -think about connecting to FDA API to find out which foods have high sugar/salt/water content as predictor of safety\
 
 ## Ideas
