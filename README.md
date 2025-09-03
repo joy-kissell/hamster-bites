@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ## Data Visualization
 ![Hamster Food Safety Treemap](images/hamster_food_treemap.png)
 ## Interactive Visualization
-[🔗 View Interactive Treemap](https://htmlpreview.github.io/?https://github.com/yourusername/hamster-bites/blob/main/images/hamster_food_treemap.html)
+[🔗 View Interactive Treemap](https://htmlpreview.github.io/?https://github.com/joy-kissell/hamster-bites/blob/main/images/hamster_food_treemap.html)
 
 This treemap shows:
 - **Parent rectangles**: Food categories (Fruits, Vegetables, etc.)
