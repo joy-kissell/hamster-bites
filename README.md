@@ -13,6 +13,15 @@ pip install -r requirements.txt
 ## Data Preview
 📊 **[View complete dataset](data/clean_hamster_foods.csv)** (150+ foods)
 
+## Data Visualization
+![Hamster Food Safety Treemap](images/hamster_food_treemap.png)
+*Interactive version: [View HTML](images/hamster_food_treemap.html)*
+
+This treemap shows:
+- **Parent rectangles**: Food categories (Fruits, Vegetables, etc.)
+- **Child rectangles**: Individual foods
+- **Green**: Safe foods | **Pink**: Unsafe foods
+
 ### Sample Data
 | food | type | safe | controversial | notes |
 |------|------|------|---------------|-------|
@@ -34,6 +43,7 @@ pip install -r requirements.txt
 8.removed duplicates and plural versions of foods from df\
 9.converted data types of df: food (string), type (categorical), safe (boolean), controversial (boolean), notes (string)\
 10.basic stats and category breakdown with count and percentages of dangerous and controversial foods calculated
+11.created a tree map of food type and safety status
     **TODO: data visualization**
     -create bar charts with basic stats
     -make some aggregation/pivot tables to make charts
